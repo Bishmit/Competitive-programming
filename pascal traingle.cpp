@@ -1,3 +1,4 @@
+// Pascal triangle without using formula, formula used pascal triangle is in fun_with_loop Repo
 #include<iostream>
 using namespace std;
 

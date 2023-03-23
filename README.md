@@ -1,1 +1,1 @@
-# Competitive-programming
+# Discrete_Structure_programs

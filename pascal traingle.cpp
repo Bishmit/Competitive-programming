@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-void pascaltriangle(int h, int arr[][10]){
+void pascaltriangle(int h, int arr[][100]){
     for(int i=0; i<h; i++){
         for(int j=0; j<h; j++){
             if(j==0 || i==j) arr[i][j] = 1;
@@ -10,7 +10,7 @@ void pascaltriangle(int h, int arr[][10]){
     }
 }
 
-void render(int h, int arr[][10]){
+void render(int h, int arr[][100]){
    for(int i=0; i<h; i++){
         // print spaces before the numbers
         for(int k=0; k<h-i; k++){
@@ -28,7 +28,7 @@ int main(){
     int h;
     cout<<"Enter the number you want to find the Pascal triangle up to: ";
     cin>>h;
-    int arr[10][10];
+    int arr[100][100];
     pascaltriangle(h, arr);
     render(h, arr);
     return 0;

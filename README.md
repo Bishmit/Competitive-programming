@@ -1,1 +1,1 @@
-# Discrete_Structure_programs
+# Some discrete structure programs 
